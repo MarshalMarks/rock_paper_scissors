@@ -27,7 +27,7 @@ After a game is over, the user can select the "Play again" button to reset the p
 - The user can start a new game when the previous one has ended.
 
 # Version Notes
-1.0.0-alpha (3/29/2023)
+_1.0.0-alpha (3/29/2023)_
 
 - Project created
 - main.html created
