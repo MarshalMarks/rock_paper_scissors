@@ -7,9 +7,9 @@ HTML, JavaScript, and CSS will be used for this project.
 
 # Gameplay
 
-To make a move, click one of the buttons labeled "Rock", "Paper", or "Scissors". The computer will make a move in response, and the results of this match will be displayed on the screen.
+To make a move, the user clicks one of the buttons labeled "Rock", "Paper", or "Scissors". The computer will make a move in response, and the results of this match will be displayed on the screen.
 
-- If the player beats the computer, they will gain a point.
+- If the player beats the computer, the player will gain a point.
 - If the computer beats the player, the computer will gain a point.
 - If the player and the computer pick the same option, that matchup will be a tie and nobody will gain a point.
 
