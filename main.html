@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <div id="currentGame">
+        <div>
+            <h3>Player Score</h6>
+            <p id="playerScoreText">0</p>
+            <h3>Computer Score</h6>
+            <p id="computerScoreText">0</p>
+        </div>
+        <h2>---</h2>
+        <div>
+            <h3>Choose your move:</h6>
+            <button onclick="evaluateMatch(rock)" id="buttonRock">Rock</button>
+            <button onclick="evaluateMatch(paper)" id="buttonPaper">Paper</button>
+            <button onclick="evaluateMatch(scissors)" id="buttonScissors">Scissors</button>
+        </div>
+        <div>
+            <h3>Computer chose:</h6>
+            <p id="computerChoiceText">[Computer Choice]</p>
+        </div>
+        <h2>---</h2>
+        <h4 id="message">[Message]</h4>
+        <div>
+            <button onclick="newGame()" id="newGameButton">Play again</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
